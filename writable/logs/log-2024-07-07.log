@@ -1,0 +1,41 @@
+CRITICAL - 2024-07-07 15:23:38 --> ErrorException: Undefined variable $contents
+[Method: GET, Route: /]
+in APPPATH\Views\template.php on line 245.
+ 1 APPPATH\Views\template.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contents', 'D:\\Project\\PoinOfSales\\app\\Views\\template.php', 245)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Project\\PoinOfSales\\app\\Views\\template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Libraries\Template.php(22): CodeIgniter\View\View->render('template')
+ 5 APPPATH\Controllers\Dashboard.php(20): App\Libraries\Template->load('template', 'dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project\\PoinOfSales\\public\\index.php')
+CRITICAL - 2024-07-07 15:31:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "supplier/supplier_data.php"
+[Method: GET, Route: supplier]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('supplier/supplier_data.php')
+ 2 APPPATH\Libraries\Template.php(19): CodeIgniter\View\View->render('supplier/supplier_data')
+ 3 APPPATH\Controllers\Supplier.php(20): App\Libraries\Template->load('template', 'supplier/supplier_data')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Supplier->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project\\PoinOfSales\\public\\index.php')
+CRITICAL - 2024-07-07 15:31:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "supplier/supplier_data.php"
+[Method: GET, Route: supplier]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('supplier/supplier_data.php')
+ 2 APPPATH\Libraries\Template.php(19): CodeIgniter\View\View->render('supplier/supplier_data')
+ 3 APPPATH\Controllers\Supplier.php(20): App\Libraries\Template->load('template', 'supplier/supplier_data')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Supplier->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project\\PoinOfSales\\public\\index.php')
